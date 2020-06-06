@@ -1,0 +1,34 @@
+.counter {
+  max-width: 800px;
+  margin: auto;
+}
+.counter button {
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+  outline: none;
+  border: 0px;
+}
+.controllers{
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inc {
+  background: green;
+}
+.dec {
+  background: red;
+}
+
+.reset {
+  background: blue;
+}
+
+.counter p {
+  font-size: 20px;
+  text-align: center;
+}
